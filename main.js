@@ -1,4 +1,4 @@
-import interpolate from "./interpolate.js";
+import interpolate from "./interpolateIt.js";
 
 
 const no_of_points = document.getElementById('no_of_points'),
