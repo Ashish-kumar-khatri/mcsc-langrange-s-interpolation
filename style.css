@@ -1,0 +1,99 @@
+
+    body > div{
+        /* position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%); */
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+        gap:5em;
+        margin:3em;
+        /* border:1px solid red; */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    body > div>*{
+        /* border:1px solid red; */
+    }
+
+    body h1{
+        margin-left:1em;
+        margin-bottom:-1em;
+        /* text-decoration: underline; */
+        color:rgb(5, 116, 207);
+    }
+
+    input{
+        border:none;
+        background:#F0F2FC;
+        outline:none;
+        padding:.5em;
+        border:1px solid rgb(202, 202, 202);
+        border-radius:2px;
+    }
+
+    button{
+        padding:.3em .5em;
+        cursor:pointer;
+        width:fit-content;
+        align-self: flex-end;
+    }
+
+
+    .points{
+        display:flex;
+        gap:1em;
+        flex-direction: column;
+    }
+    .points input{
+        margin-left:.8em;
+    }
+
+
+    .ask{
+        /* border:1px solid red; */
+        width:fit-content;
+        display:flex;
+        /* flex-direction: column; */
+        gap:1em;
+        margin-left:2em;
+    }
+    .ask > div{
+        display:flex;
+        flex-direction: column;
+        gap:1em;
+    }
+
+    .point{
+        display:flex;
+        gap:1em;
+    }
+    .question{
+        /* display:flex; */
+        flex-direction: row;
+        /* max-width:300px; */
+        align-items: center;
+        margin-left:2em;
+        display: none;
+        width:fit-content;
+        gap:2em;
+        /* border:1px solid red; */
+    }
+   
+    #results{
+        /* border:1px solid red; */
+        background:#F0F2FC;
+        padding:1em;
+        border-radius:5px;
+        display:none;
+    }
+
+    .question input[type="button"]{
+        /* margin-top:1em; */
+        padding-left:1em;
+        padding-right:1em;
+    }
+
+   
